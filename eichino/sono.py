@@ -17,7 +17,7 @@ class ittan():
         self.angular = angular
         self.time = time
     
-    def forword(self):
+    def forward(self):
         self.t.linear.x = self.linear
         self.t.angular.z = 0
         start_time = time.time()

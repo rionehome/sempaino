@@ -8,7 +8,7 @@ if __name__=='__main__':
     i = ittan(angular=1.0)
     time.sleep(1)
     
-    i.forword()
+    i.forward()
     i.left()
     i.right()
     i.linear = 0.1
@@ -54,7 +54,7 @@ if __name__=='__main__':
     
     11行目は、ittanクラスのメソッドを呼び出しています。
     ittanクラスは、以下のメソッドを持っています。
-        forword()   : 前方へ1秒間移動する
+        forward()   : 前方へ1秒間移動する
         back()      : 後方へ1秒間移動する
         left()      : 上から見て半時計回りへ1秒間回転する
         right()     : 上から見て時計回りへ1秒間回転する
